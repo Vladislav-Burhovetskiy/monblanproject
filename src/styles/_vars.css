@@ -1,0 +1,26 @@
+:root {
+  --font-size-small: 12px;
+  --font-size-normal: 14px;
+  --font-size-medium: 16px;
+  --font-size-large: 24px;
+
+  --font-stack-text: "Roboto", sans-serif;
+  --font-stack-logo: "Montserrat", sans-serif;
+
+  --black: #000000;
+  --black-medium: #636264;
+  --black-light: #929292;
+
+  --container-max-width: 1180px;
+  --container-normal-width: 800px;
+  --container-medium-width: 700px;
+  --container-small-width: 500px;
+
+  --gutter-huge: 12rem;
+  --gutter-medium: 6rem;
+  --gutter-normal: 3rem;
+  --gutter-small-1: 2.5rem;
+  --gutter-small: 2rem;
+  --gutter-x-small: 1rem;
+  --border-light: 1px solid rgb(36, 35, 35);
+}

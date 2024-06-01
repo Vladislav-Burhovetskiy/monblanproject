@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-stack-text);
+  font-weight: medium;
+  font-size: var(--font-size-medium);
+  color: var(--black);
+}
+
+img {
+  display: block;
+  height: 100%;
+}
