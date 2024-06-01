@@ -1,0 +1,15 @@
+.background-image-top {
+  position: absolute;
+  top: 0;
+  left: -120px;
+  height: 55%;
+  z-index: -1;
+}
+
+.background-image-bottom {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+  height: 55%;
+  z-index: -1;
+}

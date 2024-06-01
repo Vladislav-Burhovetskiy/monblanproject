@@ -1,13 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="src/styles/index.css">
-  <title>Monblan project</title>
-</head>
-<body>
-  <h1>Monblan project!</h1>
-  <script src="src/scripts/index.js" type="module"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles/index.css" />
+    <title>Monblan project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-info">
+          <div class="header-info__project">
+            <p class="header-info__project-name">monoblanproject</p>
+            <p class="header-info__project-start">Start on 17-02-2016</p>
+          </div>
+          <div class="header-info__stats">
+            <p class="header-info__stats-posts">
+              <span class="bold">870</span> posts
+            </p>
+            <p class="header-info__stats-followers">
+              <span class="bold">11,787</span> followers
+            </p>
+            <p class="header-info__stats-following">
+              <span class="bold">112</span> following
+            </p>
+          </div>
+          <div class="header-info__filter">
+            <p class="header-info__filter-label">Date</p>
+            <div class="input-container">
+              <input
+                type="date"
+                id="from"
+                class="header-info__filter-date"
+                placeholder="from"
+              />
+              <img
+                src="./src/images/plus-x.svg"
+                alt="Clear"
+                class="clear-icon"
+                onclick="clearInput('from')"
+              />
+              <img
+                src="./src/images/calendar.svg"
+                alt="Calendar"
+                class="calendar-icon"
+                onclick="focusInput('from')"
+              />
+            </div>
+
+            <div class="input-container">
+              <input
+                type="date"
+                id="to"
+                class="header-info__filter-date"
+                placeholder="to"
+              />
+              <img
+                src="./src/images/plus-x.svg"
+                alt="Clear"
+                class="clear-icon"
+                onclick="clearInput('to')"
+              />
+              <img
+                src="./src/images/calendar.svg"
+                alt="Calendar"
+                class="calendar-icon"
+                onclick="focusInput('to')"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="background-image-top">
+      <img
+        src="./src/images/background-top.png"
+        alt="Background Green bubble image"
+      />
+    </div>
+    <div class="background-image-bottom">
+      <img
+        src="./src/images/background-bottom.png"
+        alt="Background Green bubble image"
+      />
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="src/scripts/datepicker.js"></script>
+    <script src="src/scripts/index.js"></script>
+  </body>
 </html>

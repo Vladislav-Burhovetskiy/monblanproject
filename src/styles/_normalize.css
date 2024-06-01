@@ -10,12 +10,17 @@ html {
 
 body {
   font-family: var(--font-stack-text);
-  font-weight: medium;
+  font-weight: 400;
   font-size: var(--font-size-medium);
   color: var(--black);
+  background-color: var(--background-gray-light);
 }
 
 img {
   display: block;
   height: 100%;
+}
+
+.bold {
+  font-weight: 700;
 }

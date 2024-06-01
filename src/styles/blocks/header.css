@@ -1,0 +1,130 @@
+.header {
+  background-color: var(--background-white);
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 175px;
+  box-shadow: inset 0px 12px 24px var(--box-shadow-color),
+    0px 4px 24px var(--box-shadow-color);
+  background-image: url("../../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: 20% 10px;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 175px;
+  width: 350px;
+  padding: 35px 0;
+  margin: 0 auto;
+}
+
+.header-info__project,
+.header-info__stats,
+.header-info__filter {
+  display: flex;
+  align-items: center;
+}
+
+.header-info__project-name {
+  font-family: var(--font-stack-project-name);
+  font-size: var(--font-size-large);
+  letter-spacing: var(--letter-spacing-normal);
+  margin-right: 15px;
+}
+
+.header-info__project-start {
+  font-size: var(--font-size-normal);
+  font-weight: 300;
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  border-radius: 2px;
+  letter-spacing: var(--letter-spacing-small);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.header-info__stats {
+  font-size: var(--font-size-normal);
+}
+
+.header-info__stats-posts,
+.header-info__stats-followers {
+  margin-right: 30px;
+}
+
+.header-info__filter-label {
+  font-size: var(--font-size-medium);
+}
+
+.header-info__filter-date {
+  border: 1px solid var(--datepicker-gray);
+  border-radius: 4px;
+  width: 148px;
+  height: 28px;
+  padding: 5px 0;
+  padding-left: 10px;
+}
+
+.header-info__filter-date:focus {
+  outline: 1px solid var(--blue);
+}
+
+.header-info__filter-date::placeholder {
+  font-size: var(--font-size-normal);
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.clear-icon,
+.calendar-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background-color: var(--background-datepicker);
+  border-left: 1px solid var(--datepicker-gray);
+}
+
+.calendar-icon {
+  right: 1px;
+  width: 28px;
+  height: 26px;
+  padding: 2px;
+  transition: all 0.2s;
+}
+
+.calendar-icon:active {
+  box-shadow: inset -1px 1px 5px var(--black-medium);
+}
+
+.clear-icon {
+  right: 28px;
+  width: 28px;
+  height: 26px;
+  padding: 7px;
+  transition: all 0.2s;
+}
+
+.clear-icon:active {
+  box-shadow: inset 1px 1px 5px var(--black-medium),
+    1px 0px 2px var(--black-medium);
+}
+
+@media (min-width: 420px) {
+  .header-info {
+    width: 375px;
+  }
+
+  .header-info__project-start {
+    padding: 5px 10px;
+  }
+
+  .header-info__filter-date {
+    width: 160px;
+  }
+}

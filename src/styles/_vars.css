@@ -5,11 +5,22 @@
   --font-size-large: 24px;
 
   --font-stack-text: "Roboto", sans-serif;
-  --font-stack-logo: "Montserrat", sans-serif;
+  --font-stack-project-name: "Montserrat", sans-serif;
 
   --black: #000000;
   --black-medium: #636264;
   --black-light: #929292;
+  --blue: #3D8EDA;
+  --datepicker-gray: #DEDEDE;
+  --background-datepicker: #EBEBEB;
+
+  --background-white: #FFFFFF;
+  --background-gray-light: #FAFAFA;
+
+  --box-shadow-color: rgba(0, 0, 0, 0.12);
+
+  --letter-spacing-small: -0.5px;
+  --letter-spacing-normal: -0.2px;
 
   --container-max-width: 1180px;
   --container-normal-width: 800px;

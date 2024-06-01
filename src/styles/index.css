@@ -2,3 +2,7 @@
 @import url(_vars.css);
 @import url(_reset.css);
 @import url(_normalize.css);
+
+@import url(blocks/background-images.css);
+@import url(blocks/header.css);
+@import url(blocks/container.css);
