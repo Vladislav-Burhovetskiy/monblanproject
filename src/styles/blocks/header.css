@@ -7,6 +7,7 @@
   background-image: url("../../images/logo.png");
   background-repeat: no-repeat;
   background-position: 20% 10px;
+  margin-bottom: 20px;
 }
 
 .header-info {
@@ -58,6 +59,7 @@
 }
 
 .header-info__filter-date {
+  color: var(--black-medium);
   border: 1px solid var(--datepicker-gray);
   border-radius: 4px;
   width: 148px;
@@ -126,5 +128,6 @@
 
   .header-info__filter-date {
     width: 160px;
+    margin-left: 10px;
   }
 }

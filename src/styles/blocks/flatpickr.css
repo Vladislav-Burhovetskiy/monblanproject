@@ -1,0 +1,5 @@
+.flatpickr-day.today,
+.flatpickr-day.selected,
+.flatpickr-day:hover {
+  border-radius: 4px;
+}

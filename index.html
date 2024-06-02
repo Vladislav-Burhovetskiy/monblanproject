@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Monblan project</title>
     <link
       rel="stylesheet"
@@ -76,6 +83,51 @@
         </div>
       </div>
     </header>
+
+    <main>
+      <div class="list-buttons container">
+        <button id="list-table-btn" class="list-btn">
+          <svg
+            id="list-table-btn-icon"
+            class="list-btn-icon"
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="#C8C7C7"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="6" height="6" />
+            <rect x="8" width="6" height="6" />
+            <rect x="16" width="6" height="6" />
+            <rect y="8" width="6" height="6" />
+            <rect y="16" width="6" height="6" />
+            <rect x="8" y="8" width="6" height="6" />
+            <rect x="8" y="16" width="6" height="6" />
+            <rect x="16" y="8" width="6" height="6" />
+            <rect x="16" y="16" width="6" height="6" />
+          </svg>
+        </button>
+        <button id="list-btn" class="list-btn">
+          <svg
+            id="list-btn-icon"
+            class="list-btn-icon"
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="#3D8EDA"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="6" height="6" />
+            <rect y="8" width="6" height="6" />
+            <rect y="16" width="6" height="6" />
+            <rect x="9" y="10" width="15" height="2" />
+            <rect x="9" y="18" width="15" height="2" />
+            <rect x="9" y="2" width="15" height="2" />
+          </svg>
+        </button>
+      </div>
+    </main>
+
     <div class="background-image-top">
       <img
         src="./src/images/background-top.png"
@@ -92,5 +144,6 @@
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="src/scripts/datepicker.js"></script>
     <script src="src/scripts/index.js"></script>
+    <script src="src/scripts/list-buttons.js"></script>
   </body>
 </html>
