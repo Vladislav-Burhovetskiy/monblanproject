@@ -16,22 +16,11 @@
 
   --background-white: #FFFFFF;
   --background-gray-light: #FAFAFA;
+  --background-transparent: rgba(255, 255, 255, 0.6);
+
 
   --box-shadow-color: rgba(0, 0, 0, 0.12);
 
   --letter-spacing-small: -0.5px;
   --letter-spacing-normal: -0.2px;
-
-  --container-max-width: 1180px;
-  --container-normal-width: 800px;
-  --container-medium-width: 700px;
-  --container-small-width: 500px;
-
-  --gutter-huge: 12rem;
-  --gutter-medium: 6rem;
-  --gutter-normal: 3rem;
-  --gutter-small-1: 2.5rem;
-  --gutter-small: 2rem;
-  --gutter-x-small: 1rem;
-  --border-light: 1px solid rgb(36, 35, 35);
 }

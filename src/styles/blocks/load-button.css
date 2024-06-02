@@ -1,0 +1,20 @@
+.load-more-btn__container {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.load-more-btn {
+  font-size: var(--font-size-small);
+  color: var(--black-light);
+  background-color: transparent;
+  border: 1px solid var(--black-light);
+  border-radius: 16px;
+  padding: 8px 25px;
+  margin-bottom: 100px;
+  cursor: pointer;
+  transition: scale 0.3s;
+}
+
+.load-more-btn:active {
+  scale: 0.7;
+}

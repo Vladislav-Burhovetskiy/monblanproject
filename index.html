@@ -11,11 +11,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Monblan project</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
     />
+    <title>Monblan project</title>
   </head>
   <body>
     <header class="header">
@@ -132,7 +132,10 @@
       </section>
       <section class="section-list container" id="section-list"></section>
 
-      <button class="load-more-btn" id="load-more-btn">LOAD MORE</button>
+      <div class="load-more-btn__container">
+        <button class="load-more-btn" id="load-more-btn">LOAD MORE</button>
+      </div>
+      
     </main>
 
     <div class="background-image-top">
@@ -150,9 +153,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="src/scripts/datepicker.js"></script>
-    <script src="src/scripts/index.js"></script>
-    <script src="src/scripts/list-buttons.js"></script>
-    <script src="src/scripts/list-items.js"></script>
-    <script src="src/scripts/tile-items.js"></script>
+    <script src="src/scripts/index.js" type="module"></script>
   </body>
 </html>

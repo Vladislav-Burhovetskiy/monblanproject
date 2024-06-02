@@ -1,6 +1,6 @@
 .header {
   background-color: var(--background-white);
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: var(--background-transparent);
   height: 175px;
   box-shadow: inset 0px 12px 24px var(--box-shadow-color),
     0px 4px 24px var(--box-shadow-color);

@@ -55,7 +55,7 @@
       loadImages(loadedImages + 1, totalImages);
       if (loadedImages >= totalImages) {
         this.disabled = true;
-        this.textContent = "No more images to load";
+        this.textContent = "No more items to load";
       }
     }
   });

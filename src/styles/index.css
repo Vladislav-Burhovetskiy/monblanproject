@@ -10,8 +10,4 @@
 @import url(blocks/list-buttons.css);
 @import url(blocks/section-list.css);
 @import url(blocks/section-tiles.css);
-
-
-.load-more-btn {
-  margin-bottom: 100px;
-}
+@import url(blocks/load-button.css);
