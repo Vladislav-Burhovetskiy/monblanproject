@@ -16,11 +16,6 @@ body {
   background-color: var(--background-gray-light);
 }
 
-img {
-  display: block;
-  height: 100%;
-}
-
 .bold {
   font-weight: 700;
 }

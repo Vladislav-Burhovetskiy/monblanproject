@@ -29,17 +29,17 @@
   margin-bottom: 10px;
 }
 
-.image-upload {
+.list-image-upload {
   margin-bottom: 12px;
 }
 
-.heart-icon {
+.list-heart-icon {
   width: 18px;
   height: 18px;
   margin-right: 2px;
 }
 
-.comment-icon {
+.list-comment-icon {
   width: 15px;
   height: 15px;
   margin-top: 2px;
@@ -57,16 +57,16 @@
     margin-right: 20px;
   }
 
-  .image-upload {
+  .list-image-upload {
     margin-bottom: 10px;
   }
 
-  .comment-icon {
+  .list-comment-icon {
     margin-left: 20px;
     margin-right: 5px;
   }
 
-  .heart-icon {
+  .list-heart-icon {
     margin-right: 5px;
   }
 }
