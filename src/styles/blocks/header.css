@@ -1,12 +1,12 @@
 .header {
   background-color: var(--background-white);
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
   height: 175px;
   box-shadow: inset 0px 12px 24px var(--box-shadow-color),
     0px 4px 24px var(--box-shadow-color);
   background-image: url("../../images/logo.png");
   background-repeat: no-repeat;
-  background-position: 20% 10px;
+  background-position: 5% 10px;
   margin-bottom: 20px;
 }
 
@@ -129,5 +129,11 @@
   .header-info__filter-date {
     width: 160px;
     margin-left: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    background-position: 20% 10px;
   }
 }

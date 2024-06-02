@@ -1,13 +1,13 @@
-const tableBtn = document.getElementById("list-table-btn");
-const tableBtnIcon = document.getElementById("list-table-btn-icon");
+const tilesBtn = document.getElementById("tiles-btn");
+const tilesBtnIcon = document.getElementById("tiles-btn-icon");
 const listBtn = document.getElementById("list-btn");
 const listBtnIcon = document.getElementById("list-btn-icon");
 
-const tableSection = document.getElementById("list-btn-icon");
-const listSection = document.getElementById("list-btn-icon");
+const tilesSection = document.getElementById("section-tiles");
+const listSection = document.getElementById("section-list");
 
 function resetButtons() {
-  tableBtnIcon.setAttribute("fill", "#C8C7C7");
+  tilesBtnIcon.setAttribute("fill", "#C8C7C7");
   listBtnIcon.setAttribute("fill", "#C8C7C7");
 }
 
@@ -20,14 +20,14 @@ function showSection(section, btnIcon) {
   btnIcon.setAttribute("fill", "#3D8EDA");
 }
 
-tableBtn.addEventListener("click", function () {
+tilesBtn.addEventListener("click", function () {
   resetButtons();
   hideSection(listSection);
-  showSection(tableSection, tableBtnIcon);
+  showSection(tilesSection, tilesBtnIcon);
 });
 
 listBtn.addEventListener("click", function () {
   resetButtons();
-  hideSection(tableSection);
+  hideSection(tilesSection);
   showSection(listSection, listBtnIcon);
 });

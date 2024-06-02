@@ -46,13 +46,13 @@
                 placeholder="from"
               />
               <img
-                src="./src/images/plus-x.svg"
+                src="./src/images/icons/plus-x.svg"
                 alt="Clear"
                 class="clear-icon"
                 onclick="clearInput('from')"
               />
               <img
-                src="./src/images/calendar.svg"
+                src="./src/images/icons/calendar.svg"
                 alt="Calendar"
                 class="calendar-icon"
                 onclick="focusInput('from')"
@@ -67,13 +67,13 @@
                 placeholder="to"
               />
               <img
-                src="./src/images/plus-x.svg"
+                src="./src/images/icons/plus-x.svg"
                 alt="Clear"
                 class="clear-icon"
                 onclick="clearInput('to')"
               />
               <img
-                src="./src/images/calendar.svg"
+                src="./src/images/icons/calendar.svg"
                 alt="Calendar"
                 class="calendar-icon"
                 onclick="focusInput('to')"
@@ -86,9 +86,9 @@
 
     <main>
       <div class="list-buttons container">
-        <button id="list-table-btn" class="list-btn">
+        <button id="tiles-btn" class="list-btn">
           <svg
-            id="list-table-btn-icon"
+            id="tiles-btn-icon"
             class="list-btn-icon"
             width="22"
             height="22"
@@ -126,6 +126,98 @@
           </svg>
         </button>
       </div>
+
+      <section class="section-tiles container" id="section-tiles"></section>
+      <section class="section-list container" id="section-list">
+        <!-- <div class="section-list__item">
+          <img src="./src/images/photos/1.png" alt="Photo 1" />
+          <div class="section-list__item-info">
+            <div>
+              <p class="section-list__item-name">Today</p>
+              <div class="section-list__item-info-data">
+                <img
+                  class="heart-icon"
+                  src="./src/images/icons/heart.svg"
+                  alt="Heart icon"
+                />
+                <p>128</p>
+                <img
+                  class="comment-icon"
+                  src="./src/images/icons/comment.svg"
+                  alt="Heart icon"
+                />
+                <p>31</p>
+              </div>
+            </div>
+            <div>
+              <p class="section-list__item-name">9-08-2016</p>
+              <div class="section-list__item-info-data">
+                <img
+                  class="heart-icon"
+                  src="./src/images/icons/heart.svg"
+                  alt="Heart icon"
+                />
+                <p>67</p>
+                <img
+                  class="comment-icon"
+                  src="./src/images/icons/comment.svg"
+                  alt="Heart icon"
+                />
+                <p>22</p>
+              </div>
+            </div>
+            <div>
+              <p class="section-list__item-name image-upload">Image upload</p>
+              <p>11-04-2016</p>
+            </div>
+          </div>
+        </div>
+        <div class="section-list__item">
+          <img src="./src/images/photos/2.png" alt="Photo 2" />
+          <div class="section-list__item-info">
+            <div>
+              <p class="section-list__item-name">Today</p>
+              <div class="section-list__item-info-data">
+                <img
+                  class="heart-icon"
+                  src="./src/images/icons/heart.svg"
+                  alt="Heart icon"
+                />
+                <p>128</p>
+                <img
+                  class="comment-icon"
+                  src="./src/images/icons/comment.svg"
+                  alt="Heart icon"
+                />
+                <p>31</p>
+              </div>
+            </div>
+            <div>
+              <p class="section-list__item-name">9-08-2016</p>
+              <div class="section-list__item-info-data">
+                <img
+                  class="heart-icon"
+                  src="./src/images/icons/heart.svg"
+                  alt="Heart icon"
+                />
+                <p>67</p>
+                <img
+                  class="comment-icon"
+                  src="./src/images/icons/comment.svg"
+                  alt="Heart icon"
+                />
+                <p>22</p>
+              </div>
+            </div>
+            <div>
+              <p class="section-list__item-name image-upload">Image upload</p>
+              <p>11-04-2016</p>
+            </div>
+          </div>
+        </div> -->
+      </section>
+
+      <button class="load-more-btn" id="load-more-btn">LOAD MORE</button>
     </main>
 
     <div class="background-image-top">

@@ -22,3 +22,7 @@
 .list-btn-icon:active {
   scale: 0.7;
 }
+
+.hidden {
+  display: none;
+}
